@@ -1,7 +1,7 @@
 .contenedor_1{
     background-image: url(../img/bgHeader.png);
     background-size: cover;
-    height: 100vh;
+    height: 68vh;
     display: flex;
     justify-content: center;
     background-position: center -109px;
@@ -151,3 +151,33 @@
     box-shadow: 0 -4px 6px rgb(0,0,0,0.2);
 }
 
+@media (max-width:1279px){
+   .contenedor_1{
+    height: 45vh;
+   }
+
+    .titulo_2{
+        font-size: 32px;
+    }
+
+    .texto_2{
+        font-size: 18px;
+    }
+
+    .imagen_2{
+        margin-left: 4px;
+
+    }
+
+    .todo_2{
+        margin-top: 90px;
+    }
+
+    .boton_1{
+        margin-bottom: 100px;
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+
+    
+}
