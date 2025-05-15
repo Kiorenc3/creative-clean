@@ -48,8 +48,11 @@
 }
 
 .texto_2{
-    font-size: 20px;
+    font-size: 25px;
+    width: 850px;
+    
 }
+
 
 .imagen_2{
     margin-left: 100px;
@@ -74,11 +77,16 @@
     margin: 100px;
 
 }
+.texto_3{
+    width: 450px;
+    font-size: 25px;
+}
 
 .titulo_3{
     color: #ff8940;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 39px;
+    width: 450px;
 }
 
 .imagen_3{
@@ -117,6 +125,10 @@
     padding: 15px 35px;
 }
 
+.texto_4{
+    font-size: 30px;
+    width: 670px;
+}
 .titulo_4{
     color: #ff8940;
     font-size: 50px;
@@ -153,7 +165,7 @@
 
 @media (max-width:1279px){
    .contenedor_1{
-    height: 45vh;
+    height: 46vh;
    }
 
     .titulo_2{
@@ -162,13 +174,14 @@
 
     .texto_2{
         font-size: 18px;
+        width: 450px;
     }
 
     .imagen_2{
         margin-left: 4px;
 
     }
-
+    
     .todo_2{
         margin-top: 90px;
     }
@@ -179,5 +192,23 @@
         font-size: 15px;
     }
 
+    .titulo_3{
+        width: 450px;
+    }
+
+    .texto_3{
+        width: 450px;
+        font-size: 20px;
+        margin-right: -20px;
+    }
+
+    .imagen_3{
+        margin-right: 10px;
+    }
+
+    }
+
+
     
-}
+
+    
