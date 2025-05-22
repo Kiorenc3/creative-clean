@@ -383,7 +383,22 @@
         .imagen_3{
         margin-left: 0px;
         height: 236px;
-        width: 184px;
+        max-width: 92%;
+        }
+
+        .texto_3{
+        width: 244px;
+        font-size: 12px;
+        }
+
+
+        .titulo_4{
+         margin-left: 321px;
+        }
+
+        .texto_4{
+         font-size: 10px;
+        width: 137px
         }
      }
 
